@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+<data id="seqs" name="alignment">
+	<sequence id="seq_bonobo" taxon="bonobo" totalcount="4" value="AGAAATATGTCTGATAAAAGAATTACTTTGATAGAGTAAATAATAGGAGTTTAAATCCCCTTATTTCTACTAGGACTATGAGAGTCGAACCCATCCCTGAGAATCCAAAATTCTCCGTGCCACCTATCACACCCCATCCTAAGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTTATACCCTTCCCGTACTAAGAAATTTAGGTTAAACACAGACCAAGAGCCTTCAAAGCTCTCAGTAAGTTAACAATACTTAATTTCTGTAAGGACTGCAAAACCCCACTCTGCATCAACTGAACGCAAATCAGCCACTTTAATTAAGCTAAGCCCTTCTAGATTAATGGGACTTAAACCCACAAACATTTAGTTAACAGCTAAACACCCTAATCAGCATGGCTTCAATCTAAAGCCCCGGCAGGATTTGAAGCTGCTTCTTTGAATTTGCAATTCAATATGAAAAATCACCTCAGAGCTTGGTAAAAAGAGGCTTAACCCCTGTCTTTAGATTTACAGTCCAATGCTTCAACTCAGCCATTTTACCACAAAAAAGGAAGGAATCGAACCCCCTAAAGCTGGTTTCAAGCCAACCCCATGACCCCCATGACTTTTTCAAAAGATATTAGAAAAACTATTTCATAACTTTGTCAAAGTTAAATTACAGGTTAAAACCCCGTATATCTTAACACTGTAAAGCTAACCTAGCATTAACCTTTTAAGTTAAAGATTAAGAGGACCAACACCTCTTTACAGTGA"/>
+	<sequence id="seq_chimp" taxon="chimp" totalcount="4" value="AGAAATATGTCTGATAAAAGAATTACTTTGATAGAGTAAATAATAGGAGTTCAAATCCCCTTATTTCTACTAGGACTATAAGAATCGAACTCATCCCTGAGAATCCAAAATTCTCCGTGCCACCTATCACACCCCATCCTAAGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTTACACCCTTCCCGTACTAAGAAATTTAGGTTAAGCACAGACCAAGAGCCTTCAAAGCCCTCAGCAAGTTAACAATACTTAATTTCTGTAAGGACTGCAAAACCCCACTCTGCATCAACTGAACGCAAATCAGCCACTTTAATTAAGCTAAGCCCTTCTAGATTAATGGGACTTAAACCCACAAACATTTAGTTAACAGCTAAACACCCTAATCAACATGGCTTCAATCTAAAGCCCCGGCAGGATTTGAAGCTGCTTCTTCGAATTTGCAATTCAATATGAAAAATCACCTCAGAGCTTGGTAAAAAGAGGCTTAACCCCTGTCTTTAGATTTACAGTCCAATGCTTCAACTCAGCCATTTTACCACAAAAAAGGAAGGAATCGAACCCCCTAAAGCTGGTTTCAAGCCAACCCCATGACCTCCATGACTTTTTCAAAAGATATTAGAAAAACTATTTCATAACTTTGTCAAAGTTAAATTACAGGTTAAACCCCCGTATATCTTAACACTGTAAAGCTAACCTAGCATTAACCTTTTAAGTTAAAGATTAAGAGGACCGACACCTCTTTACAGTGA"/>
+	<sequence id="seq_gorilla" taxon="gorilla" totalcount="4" value="AGAAATATGTCTGATAAAAGAGTTACTTTGATAGAGTAAATAATAGAGGTTTAAACCCCCTTATTTCTACTAGGACTATGAGAATTGAACCCATCCCTGAGAATCCAAAATTCTCCGTGCCACCTGTCACACCCCATCCTAAGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTCACATCCTTCCCGTACTAAGAAATTTAGGTTAAACATAGACCAAGAGCCTTCAAAGCCCTTAGTAAGTTAACAACACTTAATTTCTGTAAGGACTGCAAAACCCTACTCTGCATCAACTGAACGCAAATCAGCCACTTTAATTAAGCTAAGCCCTTCTAGATCAATGGGACTCAAACCCACAAACATTTAGTTAACAGCTAAACACCCTAGTCAACATGGCTTCAATCTAAAGCCCCGGCAGGATTTGAAGCTGCTTCTTCGAATTTGCAATTCAATATGAAATATCACCTCGGAGCTTGGTAAAAAGAGGCCCAGCCTCTGTCTTTAGATTTACAGTCCAATGCCTTAACTCAGCCATTTTACCACAAAAAAGGAAGGAATCGAACCCCCCAAAGCTGGTTTCAAGCCAACCCCATGACCTTCATGACTTTTTCAAAAGATATTAGAAAAACTATTTCATAACTTTGTCAAGGTTAAATTACGGGTTAAAACCCCGTATATCTTAACACTGTAAAGCTAACCTAGCGTTAACCTTTTAAGTTAAAGATTAAGAGTATCGGCACCTCTTTGCAGTGA"/>
+	<sequence id="seq_human" taxon="human" totalcount="4" value="AGAAATATGTCTGATAAAAGAGTTACTTTGATAGAGTAAATAATAGGAGCTTAAACCCCCTTATTTCTACTAGGACTATGAGAATCGAACCCATCCCTGAGAATCCAAAATTCTCCGTGCCACCTATCACACCCCATCCTAAGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTTATACCCTTCCCGTACTAAGAAATTTAGGTTAAATACAGACCAAGAGCCTTCAAAGCCCTCAGTAAGTTGACAATACTTAATTTCTGTAAGGACTGCAAAACCCCACTCTGCATCAACTGAACGCAAATCAGCCACTTTAATTAAGCTAAGCCCTTCTAGACCAATGGGACTTAAACCCACAAACACTTAGTTAACAGCTAAGCACCCTAATCAACATGGCTTCAATCTAAAGCCCCGGCAGGATTTGAAGCTGCTTCTTCGAATTTGCAATTCAATATGAAAAATCACCTCGGAGCTTGGTAAAAAGAGGCCTAACCCCTGTCTTTAGATTTACAGTCCAATGCTTCAACTCAGCCATTTTACCACAAAAAAGGAAGGAATCGAACCCCCCAAAGCTGGTTTCAAGCCAACCCCATGGCCTCCATGACTTTTTCAAAAGGTATTAGAAAAACCATTTCATAACTTTGTCAAAGTTAAATTATAGGCTAAAATCCTATATATCTTAACACTGTAAAGCTAACTTAGCATTAACCTTTTAAGTTAAAGATTAAGAGAACCAACACCTCTTTACAGTGA"/>
+	<sequence id="seq_orangutan" taxon="orangutan" totalcount="4" value="AGAAATATGTCTGACAAAAGAGTTACTTTGATAGAGTAAAAAATAGAGGTCTAAATCCCCTTATTTCTACTAGGACTATGGGAATTGAACCCACCCCTGAGAATCCAAAATTCTCCGTGCCACCCATCACACCCCATCCTAAGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTTACACCCTTCCCGTACTAAGAAATTTAGGTTAAACACAGACCAAGAGCCTTCAAAGCCCTCAGCAAGTCAACAGCACTTAATTTCTGTAAGGACTGCAAAACCCCACTTTGCATCAACTGAGCGCAAATCAGCCACTTTAATTAAGCTAAGCCCTCCTAGACCGATGGGACTTAAACCCACAAACATTTAGTTAACAGCTAAACACCCTAGTCAATATGGCTTCAGTCCAAAGCCCCGGCAGGCCTTAAAGCTGCTCCTTCGAATTTGCAATTCAACATGACAAATCACCTCAGGGCTTGGTAAAAAGAGGTCTGACCCCTGTTCTTAGATTTACAGCCTAATGCCTTAACTCGGCCATTTTACCGCAAAAAAGGAAGGAATCGAACCTCCTAAAGCTGGTTTCAAGCCAACCCCATAACCCCCATGACTTTTTCAAAAGGTACTAGAAAAACCATTTCGTAACTTTGTCAAAGTTAAATTACAGGTCAAGACCCTGTGTATCTTAACATTGCAAAGCTAACCTAGCATTAACCTTTTAAGTTAAAGACTAAGAGAACCAGCCTCTCTTTGCAATGA"/>
+	<sequence id="seq_siamang" taxon="siamang" totalcount="4" value="AGAAATACGTCTGACGAAAGAGTTACTTTGATAGAGTAAATAACAGGGGTTTAAATCCCCTTATTTCTACTAGAACCATAGGAGTCGAACCCATCCTTGAGAATCCAAAACTCTCCGTGCCACCCGTCGCACCCTGTTCTAAGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTTATACCCTTCCCATACTAAGAAATTTAGGTTAAACACAGACCAAGAGCCTTCAAAGCCCTCAGTAAGTTAACAAAACTTAATTTCTGCAAGGGCTGCAAAACCCTACTTTGCATCAACCGAACGCAAATCAGCCACTTTAATTAAGCTAAGCCCTTCTAGATCGATGGGACTTAAACCCATAAAAATTTAGTTAACAGCTAAACACCCTAAACAACCTGGCTTCAATCTAAAGCCCCGGCAGAAGTTGAAGCTGCTTCTTTGAACTTGCAATTCAACGTGAAAAATCACTTCGGAGCTTGGCAAAAAGAGGTTTCACCTCTGTCCTTAGATTTACAGTCTAATGCTTTAACTCAGCCACTTTACCACAAAAAAGGAAGGAATCGAACCCTCTAAAACCGGTTTCAAGCCAGCCCCATAACCTTTATGACTTTTTCAAAAGATATTAGAAAAACTATTTCATAACTTTGTCAAAGTTAAATCACAGGTCCAAACCCCGTATATCTTATCACTGTAGAGCTAGACCAGCATTAACCTTTTAAGTTAAAGACTAAGAGAACTACCGCCTCTTTACAGTGA"/>
+</data>
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+	
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:seqs" name="stateNode">
+            <taxonset id="TaxonSet.seqs" spec="TaxonSet">
+                <alignment idref="seqs"/>
+            </taxonset>
+        </tree>
+        <parameter id="rateAC" lower="0.0" upper="6.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAG" lower="0.0" upper="6.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAT" lower="0.0" upper="6.0" name="stateNode">1.0</parameter>
+        <parameter id="rateCG" lower="0.0" upper="6.0" name="stateNode">1.0</parameter>
+        <parameter id="rateCT" lower="0.0" upper="6.0" name="stateNode">1.0</parameter>
+        <parameter id="rateGT" lower="0.0" upper="6.0" name="stateNode">1.0</parameter>
+
+		<parameter id="rates.s:seqs" name="stateNode" spec="beast.core.parameter.RealParameterContainer" value="0">
+			<parameter idref="rateAC"/>
+			<parameter idref="rateAG"/>
+			<parameter idref="rateAT"/>
+			<parameter idref="rateCG"/>
+			<parameter idref="rateCT"/>
+			<parameter idref="rateGT"/>
+		</parameter>
+        
+        <parameter id="popSize.t:seqs" name="stateNode">0.3</parameter>
+        <parameter id="freqParameter.s:seqs" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+
+	<init spec='beast.util.TreeParser' id='RandomTree.t:seqs' 
+  		initial="@Tree.t:seqs" taxa='@seqs' IsLabelledNewick="true" 
+  		newick="(siamang:0.073845,(orangutan:0.062535,(gorilla:0.03250399999999999,(human:0.023557,(chimp:0.010403999999999997,bonobo:0.007183999999999996):0.007074000000000004):0.008186999999999993):0.025672):0.0369225)"/>
+  
+<!--
+    <init id="RandomTree.t:seqs" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:seqs" taxa="@seqs">
+        <populationModel id="ConstantPopulation0.t:seqs" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:seqs" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+-->
+
+	      
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="CoalescentConstant.t:seqs" spec="Coalescent">
+                <populationModel id="ConstantPopulation.t:seqs" spec="ConstantPopulation" popSize="@popSize.t:seqs"/>
+                <treeIntervals id="TreeIntervals.t:seqs" spec="TreeIntervals" tree="@Tree.t:seqs"/>
+            </distribution>
+            
+            <prior id="PopSizePrior.t:seqs" name="distribution" x="@popSize.t:seqs">
+                <OneOnX id="OneOnX.0" name="distr"/>
+            </prior>
+            
+            <prior  id="freqsPrior.s:dna" name="distribution" x="@freqParameter.s:seqs">
+            	<distr spec="beast.math.distributions.Dirichlet" alpha="1.0 1.0 1.0 1.0"/>
+            </prior>
+            
+            <prior  id="ratesPrior.s:dna" name="distribution" x="@rates.s:seqs">
+            	<distr spec="beast.math.distributions.Dirichlet" alpha="1.0 1.0 1.0 1.0 1.0 1.0"/>
+            </prior>
+            
+<!-- 
+			<prior id="RateACPrior.s:seqs" name="distribution" x="@rateAC">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.0" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.01" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateAGPrior.s:seqs" name="distribution" x="@rateAG">
+                <Gamma id="Gamma.01" name="distr">
+                    <parameter id="RealParameter.02" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.03" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateATPrior.s:seqs" name="distribution" x="@rateAT">
+                <Gamma id="Gamma.02" name="distr">
+                    <parameter id="RealParameter.04" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.05" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateCGPrior.s:seqs" name="distribution" x="@rateCG">
+                <Gamma id="Gamma.03" name="distr">
+                    <parameter id="RealParameter.06" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.07" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+            <prior id="RateGTPrior.s:seqs" name="distribution" x="@rateGT">
+                <Gamma id="Gamma.04" name="distr">
+                    <parameter id="RealParameter.08" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.09" estimate="false" name="beta">10.0</parameter>
+                </Gamma>
+            </prior>
+ -->
+        </distribution>
+        
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.seqs" spec="ThreadedTreeLikelihood" data="@seqs" tree="@Tree.t:seqs">
+                <siteModel id="SiteModel.s:seqs" spec="SiteModel">
+                    <parameter id="mutationRate.s:seqs" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:seqs" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:seqs" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+<!-- 
+                    <substModel id="gtr.s:seqs" spec="GTR" rateAC="@rateAC" rateAG="@rateAG" rateAT="@rateAT" rateCG="@rateCG" rateGT="@rateGT">
+                        <parameter id="rateCT" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                        <frequencies id="estimatedFreqs.s:seqs" spec="Frequencies" frequencies="@freqParameter.s:seqs"/>
+                    </substModel>
+ -->
+                    <substModel id="gtr.s:seqs" spec="GTR" rateAC="@rateAC" rateAG="@rateAG" rateAT="@rateAT" rateCT="@rateCT" rateCG="@rateCG" rateGT="@rateGT">
+                        <frequencies id="estimatedFreqs.s:seqs" spec="Frequencies" frequencies="@freqParameter.s:seqs"/>
+                    </substModel>
+
+                </siteModel>
+                <branchRateModel id="StrictClock.c:seqs" spec="beast.evolution.branchratemodel.StrictClockModel">
+                    <parameter id="clockRate.c:seqs" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+    
+    <operator id="RatesExchanger.s:seqs" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="rates.s:seqs"/>
+    </operator>
+    
+<!-- 
+	<operator id="RateACScaler.s:seqs" spec="ScaleOperator" parameter="@rateAC" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="RateAGScaler.s:seqs" spec="ScaleOperator" parameter="@rateAG" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="RateATScaler.s:seqs" spec="ScaleOperator" parameter="@rateAT" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="RateCGScaler.s:seqs" spec="ScaleOperator" parameter="@rateCG" scaleFactor="0.5" weight="0.1"/>
+    
+    <operator id="RateGTScaler.s:seqs" spec="ScaleOperator" parameter="@rateGT" scaleFactor="0.5" weight="0.1"/>
+ -->
+
+    <operator id="CoalescentConstantTreeScaler.t:seqs" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:seqs" weight="3.0"/>
+
+    <operator id="CoalescentConstantTreeRootScaler.t:seqs" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:seqs" weight="3.0"/>
+
+    <operator id="CoalescentConstantUniformOperator.t:seqs" spec="Uniform" tree="@Tree.t:seqs" weight="30.0"/>
+
+    <operator id="CoalescentConstantSubtreeSlide.t:seqs" spec="SubtreeSlide" tree="@Tree.t:seqs" weight="15.0"/>
+
+    <operator id="CoalescentConstantNarrow.t:seqs" spec="Exchange" tree="@Tree.t:seqs" weight="15.0"/>
+
+    <operator id="CoalescentConstantWide.t:seqs" spec="Exchange" isNarrow="false" tree="@Tree.t:seqs" weight="3.0"/>
+
+    <operator id="CoalescentConstantWilsonBalding.t:seqs" spec="WilsonBalding" tree="@Tree.t:seqs" weight="3.0"/>
+
+    <operator id="PopSizeScaler.t:seqs" spec="ScaleOperator" parameter="@popSize.t:seqs" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="FrequenciesExchanger.s:seqs" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:seqs"/>
+    </operator>
+
+    <logger id="tracelog" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.seqs"/>
+        <log id="TreeHeight.t:seqs" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:seqs"/>
+        <log idref="rateAC"/>
+        <log idref="rateAG"/>
+        <log idref="rateAT"/>
+        <log idref="rateCG"/>
+        <log idref="rateCT"/>
+        <log idref="rateGT"/>
+        <log idref="popSize.t:seqs"/>
+        <log idref="CoalescentConstant.t:seqs"/>
+        <log idref="freqParameter.s:seqs"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:seqs" fileName="$(filebase).trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:seqs" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:seqs"/>
+    </logger>
+
+</run>
+
+</beast>
